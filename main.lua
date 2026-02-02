@@ -8,5 +8,5 @@ local scriptURL = games[currentID]
 if scriptURL then
     loadstring(game:HttpGet(scriptURL))()
 else
-    game.Players.LocalPlayer:Kick("Yo! This game ain't on the list.\nOnly Evade!")
+    game.Players.LocalPlayer:Kick("You are kicked. This script is built for Evade Game")
 end
